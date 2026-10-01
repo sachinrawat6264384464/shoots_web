@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-bodoni), serif;
+  --font-cormorant: var(--font-cormorant), serif;
+  --font-handwritten: var(--font-caveat), cursive;
+  --font-sans: var(--font-inter), sans-serif;
+
+  --color-emerald-primary: #007a5e;
+  --color-emerald-dark: #005642;
+  --color-emerald-light: #e6f3ef;
+  --color-paper-bg: #f2f1ed;
+  --color-paper-card: #f8f7f4;
+  --color-paper-dark: #121212;
+  --color-paper-border: rgba(0, 0, 0, 0.08);
+}
+
+:root {
+  --background: #f2f1ed;
+  --foreground: #121212;
+}
+
+body {
+  background-color: #f2f1ed;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+  background-size: 80px 80px;
+  color: #121212;
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Blueprint / Editorial Grid Background Pattern */
+.bg-editorial-grid {
+  background-color: #f2f1ed;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+.bg-editorial-grid-dense {
+  background-color: #f2f1ed;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Custom Typography Utilities */
+.font-handwritten {
+  font-family: var(--font-caveat), cursive;
+}
+
+.font-editorial {
+  font-family: var(--font-bodoni), serif;
+}
+
+.font-cormorant {
+  font-family: var(--font-cormorant), serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f2f1ed;
+}
+::-webkit-scrollbar-thumb {
+  background: #007a5e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #005642;
+}
+
+/* Editorial Button Styling */
+.editorial-btn {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #121212;
+}
+
+.editorial-btn:hover {
+  background-color: #007a5e;
+  color: #ffffff;
+  border-color: #007a5e;
+  transform: translateY(-1px);
+}
+
+.editorial-btn-emerald {
+  background-color: #007a5e;
+  color: #ffffff;
+  border: 1px solid #007a5e;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.editorial-btn-emerald:hover {
+  background-color: #121212;
+  border-color: #121212;
+  transform: translateY(-1px);
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
