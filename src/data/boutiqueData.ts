@@ -7,7 +7,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     titleLine1: "Royal Groom",
     titleLine2: "Designer Sherwanis",
     description: "Hand-embellished zardosi & velvet sherwanis crafted for the grand wedding day.",
-    image: "https://images.unsplash.com/photo-1617130863154-8250122718e8?auto=format&fit=crop&q=80&w=1600",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=1600",
     ctaText: "Explore Sherwanis",
     ctaLink: "#collections",
     tag: "Bridal Groom Edition"
@@ -45,7 +45,7 @@ export const COLLECTION_CATEGORIES: CollectionCategory[] = [
   },
   {
     title: "Royal Sherwanis",
-    image: "https://images.unsplash.com/photo-1617130863154-8250122718e8?auto=format&fit=crop&q=80&w=1000",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=1000",
     count: "60+ Styles",
     link: "#catalog"
   },
@@ -69,7 +69,7 @@ export const COLLECTION_CATEGORIES: CollectionCategory[] = [
   },
   {
     title: "Royal Bandhgalas",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=1000",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=1000",
     count: "50+ Styles",
     link: "#catalog"
   }
@@ -81,7 +81,7 @@ export const CATALOG_PRODUCTS: Product[] = [
     name: "Royal Velvet Groom Sherwani",
     price: "₹34,999",
     numericPrice: 34999,
-    image: "https://images.unsplash.com/photo-1617130863154-8250122718e8?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800",
     tag: "TRENDING",
     category: "Royal Sherwanis",
     description: "Heavy maroon velvet groom sherwani embellished with intricate zardosi & gold metallic thread embroidery. Includes matching safa & churidar.",
@@ -153,7 +153,7 @@ export const CATALOG_PRODUCTS: Product[] = [
     name: "Nehru Jacket & Kurta Combo",
     price: "₹9,999",
     numericPrice: 9999,
-    image: "https://images.unsplash.com/photo-1617130863154-8250122718e8?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800",
     tag: "EXCLUSIVE",
     category: "Kurta Pyjama",
     description: "Hand-loomed silk Modi jacket with brass metal buttons paired with a linen kurta pyjama set.",
@@ -177,7 +177,7 @@ export const CATALOG_PRODUCTS: Product[] = [
     name: "Embroidered Velvet Bandhgala",
     price: "₹28,999",
     numericPrice: 28999,
-    image: "https://images.unsplash.com/photo-1617130863154-8250122718e8?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800",
     tag: "EXCLUSIVE",
     category: "Groom Special",
     description: "Hand-crafted royal velvet bandhgala jacket with vintage gold buttons and customized monogram embroidery.",

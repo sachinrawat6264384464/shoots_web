@@ -46,14 +46,14 @@ export default function OurHeritage() {
           >
             <div className="relative overflow-hidden bg-neutral-900 border border-neutral-300 shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1617130863154-8250122718e8?auto=format&fit=crop&q=80&w=800"
+                src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800"
                 alt="Royal Groom Sherwani Craftsmanship"
                 className="w-full h-[360px] sm:h-[420px] object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.onerror = null;
                   target.src =
-                    "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&q=80&w=800";
+                    "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80&w=800";
                 }}
               />
               <div className="absolute bottom-3 left-3 bg-[#007a5e] text-white px-2.5 py-1 text-[10px] font-editorial uppercase font-bold tracking-wider">
